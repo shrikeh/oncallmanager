@@ -1,0 +1,26 @@
+{
+  "require": {
+    "laravel/lumen": "^5.4",
+    "league/tactician": "^1.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "symfony/psr-http-message-bridge": "^1.0",
+    "pimple/pimple": "^3.2",
+    "acclimate/container": "^2.0",
+    "league/pipeline": "^0.3.0",
+    "league/tactician-container": "^2.0",
+    "shrikeh/teapot": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OnCallManager\\": "src"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3",
+    "behat/behat": "^3.3",
+    "phpspec/phpspec": "^4.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
